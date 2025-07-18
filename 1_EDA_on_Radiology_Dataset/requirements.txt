@@ -1,0 +1,11 @@
+pandas
+matplotlib
+numpy
+nltk
+seaborn
+gensim
+pyldavis
+wordcloud
+textblob
+spacy
+textstat
