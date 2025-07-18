@@ -1,4 +1,5 @@
 myvenv
 .dotenv
-.env"3_token_classification_by_Fine_Tunning/trained_model/model.safetensors" 
-"3_token_classification_by_Fine_Tunning/trained_model/" 
+.env
+model.safetensors
+trained_model/
