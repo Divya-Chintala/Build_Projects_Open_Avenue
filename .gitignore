@@ -3,3 +3,5 @@ myvenv
 .env
 model.safetensors
 trained_model/
+.metaflow
+4_Metaflow/.metaflow/
