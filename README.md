@@ -29,6 +29,20 @@ Inferencing is done through streamlit interface, which allows users to compare b
 
 ---
 
+## Results
+
+| Field         | Prompt Accuracy (%) | Fine-Tuned Accuracy (%) |
+|---------------|---------------------|--------------------------|
+| ExamName      | 86.27               | 83.02                    |
+| ClinicalData  | 84.17               | 96.54                    |
+| Findings      | 76.83               | 95.39                    |
+| Impression    | 70.75               | 94.97                    |
+
+**Insight**: Fine-tuned Bio_ClinicalBERT significantly outperforms prompting for critical fields like *Findings* and *Impression*, showing 18–24% gains in exact match accuracy.
+
+
+---
+
 ## Run Locally
 
 ```bash
