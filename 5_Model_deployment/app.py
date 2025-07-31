@@ -10,7 +10,7 @@ sentence = st.text_area("\n\n Enter Report Text to be classified :  \n\n")
 
 model = st.selectbox(
     "\n Choose model through which you want to classify the Report Text\n", 
-    ["Prompting with LLm", "Fine-Tunned Bi_ClinicalBert", "Compare results of both"],
+    ["Prompting with LLm", "Fine-Tunned Bio_ClinicalBert", "Compare results of both"],
     index=None,
     placeholder="Select a model"
 )
