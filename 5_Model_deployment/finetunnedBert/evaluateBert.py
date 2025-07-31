@@ -1,6 +1,7 @@
 
 from transformers import pipeline, AutoModelForTokenClassification, AutoTokenizer
 from collections import defaultdict
+import os
 
 def merge_entities_by_group(entities):
     grouped = defaultdict(list)
@@ -14,7 +15,7 @@ def merge_entities_by_group(entities):
     return merged
 
 def bert_prediction(sentence):
-    model_path = "./trained_model"
+    model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "trained_model"))
     model = AutoModelForTokenClassification.from_pretrained(model_path)
     tokenizer = AutoTokenizer.from_pretrained(model_path)
 

@@ -7,3 +7,4 @@ torch
 langchain-core
 langchain-groq
 pydantic
+os
