@@ -76,4 +76,4 @@ if predict_key:
     elif len(sentence) == 0:
         st.markdown("Please enter Report Text before predicting.")
     else:
-        st.markdown("lease select a model before predicting.")
+        st.markdown("Please select a model before predicting.")
