@@ -15,7 +15,8 @@ def merge_entities_by_group(entities):
     return merged
 
 def bert_prediction(sentence):
-    model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "trained_model"))
+    base_path = os.path.dirname(os.path.dirname(__file__))  
+    model_path = os.path.join(base_path, "trained_model")
     model = AutoModelForTokenClassification.from_pretrained(model_path)
     tokenizer = AutoTokenizer.from_pretrained(model_path)
 
