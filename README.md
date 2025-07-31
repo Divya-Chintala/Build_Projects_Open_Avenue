@@ -6,7 +6,7 @@ Medical NLP application designed to extract structured information from unstruct
 - Prompt-based extraction using Large Language Model -> Llama-3.1-8B-Instant
 - Fine-tuned transformer model -> Bio_ClinicalBERT
 
-#### Demo - [Extract fields from report text](https://buildprojectsopenavenue-wkdcukdq7bsuxrrffjxtex.streamlit.app/)
+#### Demo - [Extract fields from report text](https://buildprojects.streamlit.app/)
 
 ##### Sample input:
 
