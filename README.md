@@ -10,7 +10,7 @@ Medical NLP application designed to extract structured information from unstruct
 
 ##### Sample input:
 
-EXAM DESCRIPTION: X-ray single view chest. CLINICAL HISTORY: 68 years Male, SOB COMPARISON: None. TECHNIQUE: Single portable x-ray view of the chest performed on 06/02/2020 at 11:34 PM FINDINGS: The lungs are well expanded and are clear. There is no evidence of a pneumothorax. The cardiac silhouette is normal in size and configuration. The mediastinal contours are normal. No acute osseous abnormality is identified. No focal soft tissue abnormalities are seen. Lines and tubes: None. IMPRESSION: No evidence of acute intrathoracic disease. Electronically signed by: [[PERSONALNAME]] 06/02/2020 12:02 AM CDT Workstation: [ID]
+Exam: XR CHEST AP OR PA ONLY INDICATION: Dyspnea TECHNIQUE: Single view chest radiograph submitted for interpretation. COMPARISON: Yesterday FINDINGS: Persistent mild pulmonary vascular congestion, bibasilar airspace disease, and a trace left effusion. Interval removal of the endotracheal tube and the enteric tube. Otherwise, given differences in technique, the visualized portions of the remaining radiopaque support lines/tubes demonstrate no significant interval change in position since prior exam. No evidence of pneumothorax on this non-upright exam. IMPRESSION: 1. Persistent mild pulmonary vascular congestion, bibasilar airspace disease, and a trace left effusion. 2. Lines and tubes, as described above.
 
 ---
 
