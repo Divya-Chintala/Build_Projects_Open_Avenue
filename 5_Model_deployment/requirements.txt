@@ -7,5 +7,4 @@ torch
 langchain-core
 langchain-groq
 pydantic
-os
 streamlit-aggrid
